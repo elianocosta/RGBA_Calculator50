@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
                 val hex = "#"+ Integer.toHexString(pixel)
                 color_view.setBackgroundColor(Color.rgb(r,g,b))
                 //set Hext and RGB values to text view
-                result_tv.text = "RGB: $r, $g, $b \n"
+                result_tv.text = "RGB: $r, $g, $b \nHex: $hex"
             }
                 true
         }
